@@ -190,3 +190,19 @@ footer a:hover {
 a.externo::after {
     content: '\00A0\1F517';
 }
+
+table {
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
