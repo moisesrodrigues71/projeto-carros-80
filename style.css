@@ -32,7 +32,9 @@ header {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+  
 }
+
 
 header > p {
     font-size: 1.3em;
@@ -105,6 +107,17 @@ main p {
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
+}
+
+picture, img {
+    width: 300px;
+    animation: flutuar 8s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0% {transform: translateY(2px);}
+    50% {transform: translateY(-12px);}
+    100% {transform: translateY(2px);}
 }
 
 main img {
